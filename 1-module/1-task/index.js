@@ -1,3 +1,13 @@
+let result = 1;
+let n;
+
 function factorial(n) {
-  // ваш код...
+while ( n >= 1) {
+   result = result * n;
+   n--;
 }
+return alert(result);
+}
+
+
+factorial(5);
