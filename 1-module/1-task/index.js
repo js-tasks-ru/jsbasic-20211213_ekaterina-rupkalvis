@@ -1,12 +1,12 @@
-let result = 1;
-let n;
+
 
 function factorial(n) {
-while ( n >= 1) {
-   result = result * n;
-   n--;
-}
-return alert(result);
+   let result = 1;
+   while ( n >= 1) {
+     result = result * n;
+     n--;
+   }
+   return result;
 }
 
 

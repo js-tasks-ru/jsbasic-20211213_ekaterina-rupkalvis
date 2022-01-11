@@ -12,8 +12,10 @@
  * @returns {boolean}
  */
 function isValid(name) {
-  if (name.length>=4 && name.includes(' ')===false && name!==undefined) {
-    return name;
+  if (name!==null && name.length>=4 && name.includes(' ')===false && name!==undefined) {
+    return true;
+  } else {
+    return false;
   }
 }
 
@@ -30,6 +32,6 @@ function sayHello() {
   }
 }
 
-sayHello();
+// sayHello();
 
 
